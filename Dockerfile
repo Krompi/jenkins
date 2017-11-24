@@ -32,7 +32,6 @@ RUN apk add --no-cache \
 #
 # Ports
 #
-EXPOSE 8082
 
 #
 # Command
