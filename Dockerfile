@@ -20,6 +20,7 @@ RUN apk add --no-cache \
         git \
         openjdk8 \
         openssh-client \
+        rsync \
         py-pip \
         sudo \
         ttf-dejavu && \
