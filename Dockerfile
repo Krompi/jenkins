@@ -23,6 +23,7 @@ RUN apk add --no-cache \
         rsync \
         py-pip \
         sudo \
+        postgresql-client \
         ttf-dejavu && \
     curl -fsSL $JENKINS_URL -o /app/jenkins.war && \
     pip install docker-compose && \
